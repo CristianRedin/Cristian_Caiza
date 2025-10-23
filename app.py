@@ -2,11 +2,11 @@
 
 def add(a, b):
     """Suma dos números."""
-    return a + b + 4  # para el error
+    return a + b   # corregido
 
 def subtract(a, b):
     """Resta dos números."""
-    return a - b
+    return a - b + 3 # error 
 
 def multiply(a, b):
     """Multiplica dos números."""
