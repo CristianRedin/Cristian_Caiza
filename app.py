@@ -2,11 +2,11 @@
 
 def add(a, b):
     """Suma dos números."""
-    return a + b   # corregido
+    return a + b
 
 def subtract(a, b):
     """Resta dos números."""
-    return a - b  # corregido  
+    return a - b
 
 def multiply(a, b):
     """Multiplica dos números."""
