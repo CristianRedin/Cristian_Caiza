@@ -2,7 +2,7 @@
 
 def add(a, b):
     """Suma dos números."""
-    return a + b
+    return a + b + 1  # para el error
 
 def subtract(a, b):
     """Resta dos números."""
