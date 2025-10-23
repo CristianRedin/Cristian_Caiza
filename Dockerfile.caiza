@@ -1,11 +1,17 @@
+# Imagen base oficial de Python
 FROM python:3.10-slim
 
+# Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
+# Copia el contenido del proyecto al contenedor
 COPY . .
 
+# Instala las dependencias si existe requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt || echo "No requirements.txt found, skipping..."
 
+# Expone el puerto 8080 (solo si tu app lo necesita)
 EXPOSE 8080
 
+# Comando para ejecutar la aplicación
 CMD ["python", "app.py"]
