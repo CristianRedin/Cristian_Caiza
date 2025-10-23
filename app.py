@@ -6,7 +6,7 @@ def add(a, b):
 
 def subtract(a, b):
     """Resta dos números."""
-    return a - b + 3 # error 
+    return a - b  # corregido  
 
 def multiply(a, b):
     """Multiplica dos números."""
