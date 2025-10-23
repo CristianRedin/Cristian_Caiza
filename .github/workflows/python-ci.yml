@@ -27,5 +27,5 @@ jobs:
     - name: Run unittest tests
       run: python -m unittest discover
 
-    - name: Run pytest tests
+    - name: Run pytest tests    
       run: pytest
